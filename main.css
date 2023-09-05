@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+    color: orange;
+    -webkit-text-stroke: 0.01px black;
+}
+
+header {
+    -webkit-text-stroke: 1px black;
+}
+
+body {
+    font-family: 'Nova Square', cursive;
+}
+
+body img {
+    height: 60px;
+}
+
+header {
+    padding: 16px 0;
+    background-color: orange;
+    color: white;
+    border-color: black;
+    border-style: outset;
+}
+
+header h1 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutText {
+    display: block;
+    justify-content: left;
+    text-align: justify;
+}
+
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.articles article img {
+    height: 240px;
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: black;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px; ;
+}
+
+.socialMedias img {
+    height: 24px;
+}
+
+.socialMedias li {
+    display: inline;
+    margin: 8px;
+}
+
+.socialMedias li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+#about .container {
+    display: block;
+}
+
+.contactMethods,
+.aboutText {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: 'Nova Square', cursive;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(236, 170, 47);
+}
+
+input:focus, textarea:focus {
+    outline-color: orange;
+}
+
+footer {
+    background-color: orange;
+    color: white;
+    padding: 16px 0;
+    border-color: black;
+    border-style: outset;
+}
+
+.success_message {
+    background-color: orange;
+    padding: 16px;
+    color: white;
+    display: none;
+}
+
+.error_message {
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
